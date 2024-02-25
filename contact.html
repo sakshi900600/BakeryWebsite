@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+
+</head>
+
+<style>
+*{
+    margin: 0;
+    padding: 0;
+}
+.header {
+    min-height: 80vh;
+    width: 100%;
+    background-image: url(https://cdn.pixabay.com/photo/2019/05/10/13/28/contact-us-4193523_640.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+nav img {
+    display: inline-block;
+    top: 12px;
+    background: transparent;
+    position: relative;
+    height: 40px;
+    width: 50px;
+    left:22px;
+}
+
+nav {
+    justify-content: space-between;
+    display: flex;
+}
+nav ul {
+    display: flex;
+}
+nav li {
+    list-style: none;
+    display: block;
+}
+nav ul li a {
+    text-align: right;
+    text-decoration: none;
+    margin: 15px;
+    padding: 7px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    font-size: 1.5rem;
+    font-family: sans-serif;
+}
+nav ul li a::after {
+    content: '';
+    width: 0px;
+    height: 2px;
+    background: rgb(14, 14, 14);
+    display: block;
+    margin: auto;
+    transition: .5s;
+}
+nav ul li a:hover::after {
+    width: 100%;
+}
+nav .logo{
+    text-decoration: none;
+    margin: 5px;
+    padding: 7px;
+    font-size: 2.8rem;
+    color: rgb(181, 236, 18);
+}
+.logo span{
+    color: white;
+}
+
+.contact{
+    display: flex;
+    /* width: 80vw; */
+    align-items: center;
+    margin: 123px;
+    background-color: rgb(238, 238, 237);
+}
+
+ h2{
+    margin-top: 3rem;
+    text-align: center;
+    padding: 34px;
+}
+.detail{
+    margin: 70px;
+    padding: 73px;
+    background-color: white;
+}
+.detail .box h3{
+    padding: 12px;
+    margin: 6px;
+
+}
+.form{
+    text-align: center;
+    background-color: #fff;
+    margin-right: 23px;
+}
+form input{
+    cursor: pointer;
+    padding: 13px;
+    margin: 13px;
+    width: 60%;
+    border-radius: 7px;
+    
+}
+form input:hover{
+    background-color: rgb(245, 240, 235);
+
+}
+.button{
+        text-align: center;
+    }
+    .button button{
+        padding:12px 34px;
+        border-radius: 15px;
+        background-color: #a1bcf1;
+        color: rgb(22, 22, 187);
+        border: gray;
+        margin-top: 3px;
+        margin-bottom: 9px;
+        cursor: pointer;
+    }
+    .button button:hover{
+        background-color: #417df4;
+        color: rgb(22, 22, 187);
+    }
+</style>
+
+<body>
+    <section class="header">
+        <nav>
+            <a href="#" class="logo"><i class="fa-solid fa-bread-slice"></i><span>Baker</span></a>
+            
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="product.html">Products</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            
+        </nav>
+
+    </section>
+
+    <h2>WE'RE READY, LET'S TALK.</h2>
+    <section class="contact">
+
+        <div class="detail">
+
+            <div class="box">
+                <h3>Address </h3>
+                <p>12A block shyam Nagar,Mumbai</p>
+            </div>
+
+            <div class="box">
+                <h3>Mobile No</h3>
+                <p>123-456-7890</p>
+            </div>
+
+            <div class="box">
+                <h3>Email</h3>
+                <p>Baker@bakery.com</p>
+            </div>
+        </div>
+
+        <div class="form">
+            <h2>Contact Us</h2>
+        <form action="post">
+           <input type="text" placeholder="Your Name" required> 
+           <input type="email" placeholder="email" required> 
+           <input type="text" placeholder="Message" required > 
+        </form>
+
+        <div class="button">
+
+            <a href="#"><button>Send</button></a>
+        </div>
+        </div>
+
+    </section>
+
+</body>
+</html>
