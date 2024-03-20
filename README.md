@@ -1,3 +1,21 @@
+# Website Screenshots
+
+![image](https://github.com/sakshi900600/BakeryWebsite/assets/139939188/14d93791-7f93-44df-a8cd-c28f33667c66)
+
+![image](https://github.com/sakshi900600/BakeryWebsite/assets/139939188/0cd432b5-8463-4d4b-9849-bfe8ac5e6010)
+
+![image](https://github.com/sakshi900600/BakeryWebsite/assets/139939188/3d82544b-09f2-42fc-8446-4fd65dcef417)
+
+![image](https://github.com/sakshi900600/BakeryWebsite/assets/139939188/90123c54-0158-488a-bea0-e60a2d6c574f)
+
+![image](https://github.com/sakshi900600/BakeryWebsite/assets/139939188/bf2298a1-4a5a-4d7c-8dd0-b68b5b0c3ae5)
+
+
+
+
+
+
+
 # Bakery Website
 Welcome to the Bakery Website project! This project was developed as part of a Technovation project at my college. This project aims to create a visually appealing and user-friendly website for a bakery.
 
