@@ -24,7 +24,6 @@ Welcome to the Bakery Website project! This project was developed as part of a T
 About
 Features
 Technologies Used
-Installation
 Contributing
 License
 ```
@@ -40,13 +39,6 @@ This website serves as an online platform for a bakery, allowing customers to vi
 ### Technologies Used
 1. HTML5
 2. CSS3
-
-### Installation
-To run this project locally, follow these steps:
-
-Clone the repository: git clone (https://github.com/sakshi900600/BakeryWebsite)
-Navigate to the project directory: cd bakery-website
-Open index.html in your web browser.
 
 
 ### Contributing
